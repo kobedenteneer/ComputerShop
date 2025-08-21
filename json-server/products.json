@@ -1,0 +1,820 @@
+{
+  "orders": [
+    {
+      "id": "bfc7",
+      "userId": "0",
+      "userName": "admin",
+      "items": [
+        {
+          "title": "HP Pavilion 15",
+          "productId": "1",
+          "quantity": 1,
+          "price": 999.99
+        },
+        {
+          "title": "Dell Inspiron 3891",
+          "productId": "2",
+          "quantity": 1,
+          "price": 799.99
+        }
+      ],
+      "totalPrice": 1799.98
+    },
+    {
+      "id": "8968",
+      "userId": "0",
+      "userName": "admin",
+      "items": [
+        {
+          "title": "HP Pavilion 15",
+          "productId": "1",
+          "quantity": 1,
+          "price": 999.99
+        },
+        {
+          "title": "HP Pavilion 15",
+          "productId": "1",
+          "quantity": 1,
+          "price": 999.99
+        },
+        {
+          "title": "HP Pavilion 15",
+          "productId": "1",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "totalPrice": "2999.97"
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "username": "admin",
+      "name": "Admin",
+      "password": "pxl",
+      "role": "ADMIN"
+    },
+    {
+      "id": "1",
+      "username": "maikelG",
+      "name": "Maikel Goossens",
+      "password": "pxl"
+    },
+    {
+      "id": "2",
+      "username": "kobeD",
+      "name": "Kobe Denteneer",
+      "password": "pxl"
+    },
+    {
+      "id": "3",
+      "username": "jasperV",
+      "name": "Jasper Vandeput",
+      "password": "pxl"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Laptops",
+      "description": "Take your work everywhere you go!"
+    },
+    {
+      "id": "2",
+      "name": "Desktops",
+      "description": "Staying stationary? Buy a desktop for great performance!"
+    },
+    {
+      "id": "3",
+      "name": "Monitoren",
+      "description": "Can't work without seeing anything, I think."
+    },
+    {
+      "id": "4",
+      "name": "Accessoires",
+      "description": "For when the AI is not helping you and it has to be done manually :("
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "categoryId": 1,
+      "title": "HP Pavilion 15",
+      "description": "Een krachtige laptop met een Intel Core i7-processor en 16GB RAM.",
+      "brand": "HP",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen_size": "15.6 inch"
+      },
+      "price": 999.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://www.img-exellent.be/images/photolib/2000x2000/288825/59123452_4931862517.jpg",
+        "https://cdn.webshopapp.com/shops/297925/files/389176896/hp-nbr-156-fhd-pc-i7-1165g7-16g-1t-ssd-w10-nl-f-15.jpg",
+        "https://image.coolblue.be/max/500x500/products/1792132",
+        "https://image.coolblue.be/max/500x500/products/1941267"
+      ],
+      "stock": 63,
+      "rating": 3,
+      "reviews": []
+    },
+    {
+      "id": "2",
+      "categoryId": 2,
+      "brand": "Dell",
+      "title": "Dell Inspiron 3891",
+      "description": "Een betrouwbare desktop met een snelle SSD en een krachtige processor.",
+      "specifications": {
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "1TB HDD + 256GB SSD",
+        "gpu": "NVIDIA GTX 1650"
+      },
+      "price": 799.99,
+      "shipping_time": "3-5 werkdagen",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7T7-zNnB2-BFSq16esgHobEfnXT1fr2bQw&s",
+        "https://www.hardware-corner.net/wp-content/uploads/compare/main/Dell_OptiPlex_7080_MT_main.jpg",
+        "https://m.media-amazon.com/images/I/71dYHi8v0KL._AC_UF894,1000_QL80_.jpg",
+        "https://static.fnac-static.com/multimedia/Images/FR/MDM/45/8c/00/16813125/1520-4/tsp20240917114527/PC-Dell-Inspiron-Compact-Desktop-3891-Intel-Core-i5-8-Go-RAM-512-Go-D-Noir.jpg"
+      ],
+      "stock": 75,
+      "rating": 0.5,
+      "reviews": []
+    },
+    {
+      "id": "3",
+      "categoryId": 3,
+      "brand": "Samsung",
+      "title": "Samsung Odyssey G7",
+      "description": "Een 27-inch QHD gaming monitor met een verversingssnelheid van 240Hz.",
+      "specifications": {
+        "resolution": "2560x1440",
+        "refresh_rate": "240Hz",
+        "panel_type": "VA",
+        "screen_size": "27 inch"
+      },
+      "price": 649.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://images.samsung.com/is/image/samsung/p6pim/be/ls32bg700euxen/gallery/be-odyssey-g7-g70b-ls32bg700euxen-534279640?$684_547_PNG$",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFhdLfHLHH5UaoFtYVSkqs_UZBtga79aP1A&s",
+        "https://gfx3.senetic.com/akeneo-catalog/0/e/a/d/0ead135247ebae15e0a5d36fe643597e4429539d_1692323_LS32BG700EUXEN_image4.jpg",
+        "https://tweakers.net/ext/i/2003654552.jpeg"
+      ],
+      "stock": 39,
+      "rating": 4,
+      "reviews": []
+    },
+    {
+      "id": "4",
+      "categoryId": 4,
+      "brand": "Logitech",
+      "title": "Logitech MX Master 3",
+      "description": "Een ergonomische draadloze muis met geavanceerde functies.",
+      "specifications": {
+        "connectivity": "Bluetooth/USB",
+        "battery_life": "70 dagen",
+        "dpi": "4000"
+      },
+      "price": 99.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://m.media-amazon.com/images/I/613a-3jtieL.jpg",
+        "https://resource.logitech.com/w_800,c_lpad,ar_1:1,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-business-wireless-mouse/gallery/mx-master-3s-for-business-gallery-1.png?v=1",
+        "https://m.media-amazon.com/images/I/71Woz9PLKrL.jpg",
+        "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/migration-assets-for-delorean-2025/gallery/mx-master-3s-in-the-box-graphite.png"
+      ],
+      "stock": 22,
+      "rating": 2.5,
+      "reviews": []
+    },
+    {
+      "id": "5",
+      "categoryId": 1,
+      "brand": "Apple",
+      "title": "Apple MacBook Air M1",
+      "description": "Dunne en lichte laptop met Apple's M1-chip voor hoge prestaties.",
+      "specifications": {
+        "processor": "Apple M1",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "screen_size": "13.3 inch"
+      },
+      "price": 1099.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://webshop.auva.be/media/catalog/product/cache/1539a4df640b062f605ca27a92d9b0d8/8/7/87222895_6924485074.jpg",
+        "https://gfx3.senetic.com/akeneo-catalog/a/2/5/6/a256e6821987b6e636eb41975e4eb6fd56ada2d8_1623474_MGN63ZE_A_image2.jpg",
+        "https://cdnp1.stackassets.com/3ad992338cead41f9ee06dc37c2d2578e755efce/store/58e9593477f6c5c43cca09a4a5e9d21cd6177a13ed596b82fdb840249ab6/product_344362_product_shots1.jpg",
+        "https://www.aashop.be/web/image/product.image/45/image_1024/MacBook%20Air%2013%22%202020%20M1%20Space%20Gray%20%28M%29?unique=6c69ec0"
+      ],
+      "stock": 54,
+      "rating": 2.6,
+      "reviews": []
+    },
+    {
+      "id": "6",
+      "categoryId": 1,
+      "brand": "Lenovo",
+      "title": "Lenovo ThinkPad X1 Carbon",
+      "description": "Duurzame en lichte zakelijke laptop met hoge prestaties.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "screen_size": "14 inch"
+      },
+      "price": 1499.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://p3-ofp.static.pub//fes/cms/2024/07/05/umcrxcnsm2br1itju6gvundeb9s6tf364734.png",
+        "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+        "https://kubson.be/cdn/shop/files/2003467890_1024x.webp?v=1728330056",
+        "https://cafedidong.vn/wp-content/uploads/2023/08/laptop-lenovo-thinkpad-x1-carbon-gen-3-cafedidong-5.jpg"
+      ],
+      "stock": 74,
+      "rating": 5,
+      "reviews": []
+    },
+    {
+      "id": "7",
+      "categoryId": 3,
+      "brand": "LG",
+      "title": "LG UltraFine 5K",
+      "description": "Professionele 5K-monitor met uitstekende kleurweergave.",
+      "specifications": {
+        "resolution": "5120x2880",
+        "refresh_rate": "60Hz",
+        "screen_size": "27 inch"
+      },
+      "price": 1299.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://dxbyzx5id4chj.cloudfront.net/fit-in/400x400/filters:fill(fff)/pub/media/catalog/product/8/b/8b32591c_0cf0_41bd_bac9_1cd359ab2998_c7e2.jpg",
+        "https://dxbyzx5id4chj.cloudfront.net/fit-in/400x400/filters:fill(fff)/pub/media/catalog/product/7/3/73882c81_df44_4f4a_bba4_d3461b168409_7a98.jpg",
+        "https://assets.hardwarezone.com/img/2019/07/UltraFine-5K_02.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnMXJ46lznQaren73NCnLSn5P55PGI7ziWravGpV6a44zWVj-cRhxpo-HCQkymMHa0bI&usqp=CAU"
+      ],
+      "stock": 83,
+      "rating": 2,
+      "reviews": []
+    },
+    {
+      "id": "8",
+      "categoryId": 2,
+      "brand": "Acer",
+      "title": "Acer Predator Orion 3000",
+      "description": "Krachtige gaming desktop met high-end grafische prestaties.",
+      "specifications": {
+        "processor": "Intel Core i9",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "gpu": "NVIDIA RTX 3080"
+      },
+      "price": 2499.99,
+      "shipping_time": "3-5 werkdagen",
+      "images": [
+        "https://media.krefel.be/sys-master/products/9405878108190/1440x1440.41009773_02.webp",
+        "https://media.krefel.be/sys-master/products/9405877846046/576x576.41009773_01.webp",
+        "https://media.krefel.be/sys-master/products/9405877911582/576x576.41009773_03.webp",
+        "https://media.krefel.be/sys-master/products/9405878173726/576x576.41009773_05.webp"
+      ],
+      "stock": 31,
+      "rating": 4.6,
+      "reviews": []
+    },
+    {
+      "id": "9",
+      "categoryId": 4,
+      "brand": "Corsair",
+      "title": "Corsair K95 RGB Platinum",
+      "description": "Mechanisch gaming toetsenbord met per-toets RGB-verlichting.",
+      "specifications": {
+        "switch_type": "Cherry MX Brown",
+        "backlight": "RGB",
+        "connectivity": "USB",
+        "layout": "QWERTY (NL)"
+      },
+      "price": 179.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://media.s-bol.com/9g6qglDr7Z3x/wO54o1/550x289.jpg",
+        "https://tweakers.net/ext/i/2001418665.jpeg",
+        "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Keyboards/CH-9127014-TW/Gallery/CH-9127014-TW-K95_BLK_05.webp",
+        "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Keyboards/CH-9127414-NA/Gallery/K95_PLATINUM_RGB_XT_08.webp"
+      ],
+      "stock": 20,
+      "rating": 2.7,
+      "reviews": []
+    },
+    {
+      "id": "10",
+      "categoryId": 1,
+      "brand": "ASUS",
+      "title": "ASUS ROG Zephyrus G14",
+      "description": "Compacte gaming laptop met krachtige AMD Ryzen processor.",
+      "specifications": {
+        "processor": "AMD Ryzen 9",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "screen_size": "14 inch",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "price": 1799.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36p1fZAGDtmsi5WrlfB62xgYg3-TyQdwp7w&s",
+        "https://media.s-bol.com/VVXL0ZjxEK59/OY5V1wL/550x330.jpg",
+        "https://media.s-bol.com/m9DrMX9yq8A0/OY5V1wL/550x49.jpg",
+        "https://media.s-bol.com/RVQE5BJqzVjq/OY5V1wL/550x464.jpg"
+      ],
+      "stock": 34,
+      "rating": 4.3,
+      "reviews": []
+    },
+    {
+      "id": "11",
+      "categoryId": 3,
+      "brand": "Dell",
+      "title": "Dell UltraSharp U2720Q",
+      "description": "4K professionele monitor met uitstekende kleurnauwkeurigheid.",
+      "specifications": {
+        "resolution": "3840x2160",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS",
+        "screen_size": "27 inch"
+      },
+      "price": 549.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://m.media-amazon.com/images/I/61y9nJYPtdL.jpg",
+        "https://gfx3.senetic.com/akeneo-catalog/9/9/1/8/9918277e9d26d1142e394df9b12f891557b064ec_1627564_DELL_U2720Q_image6.jpg",
+        "https://www.estunt.nl/wp-content/uploads/2021/11/Estunt-Dell-U2720Q-5.jpg.webp",
+        "https://techzone.lk/wp-content/uploads/2022/02/2-10.jpg"
+      ],
+      "stock": 92,
+      "rating": 3.2,
+      "reviews": []
+    },
+    {
+      "id": "12",
+      "categoryId": 4,
+      "brand": "Bose",
+      "title": "Bose QuietComfort 45",
+      "description": "Premium noise-cancelling koptelefoon met uitmuntend geluid.",
+      "specifications": {
+        "connectivity": "Bluetooth/USB",
+        "battery_life": "24 uur",
+        "noise_cancelling": "Ja",
+        "foldable": "Ja"
+      },
+      "price": 329.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://media.s-bol.com/ypjOO1v4AQGw/KO32GLr/911x1200.jpg",
+        "https://static.fnac-static.com/multimedia/Images/FR/MDM/a2/9d/30/19963298/1541-1/tsp20240917222221/Casque-circum-aural-sans-fil-a-reduction-de-bruit-Bose-QuietComfort-45-Bluetooth-Edition-Limitee-Jain-Gris-eclipse.jpg",
+        "https://static.fnac-static.com/multimedia/Images/FR/MDM/a2/9d/30/19963298/1541-2/tsp20240917222221/Casque-circum-aural-sans-fil-a-reduction-de-bruit-Bose-QuietComfort-45-Bluetooth-Edition-Limitee-Jain-Gris-eclipse.jpg",
+        "https://www.notebookcheck.nl/fileadmin/Notebooks/Bose/QuietComfort_45/Bose_QC45_2560.jpg"
+      ],
+      "stock": 56,
+      "rating": 7.3,
+      "reviews": []
+    },
+    {
+      "id": "13",
+      "categoryId": 2,
+      "brand": "HP",
+      "title": "HP Envy Desktop TE01",
+      "description": "Veelzijdige desktop voor werk en entertainment.",
+      "specifications": {
+        "processor": "AMD Ryzen 7",
+        "ram": "16GB",
+        "storage": "512GB SSD + 2TB HDD",
+        "gpu": "AMD Radeon RX 5500"
+      },
+      "price": 1199.99,
+      "shipping_time": "3-5 werkdagen",
+      "images": [
+        "https://m.media-amazon.com/images/I/51aQrHPnw6L.jpg",
+        "https://m.media-amazon.com/images/I/31QdOVtKisL._SL500_.jpg",
+        "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/682690_725838_03_front_comping.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJD4Z2v9dybYoT0zKhupiu2c4SZb4MUoU1Q&s"
+      ],
+      "stock": 6,
+      "rating": 6.3,
+      "reviews": []
+    },
+    {
+      "id": "14",
+      "categoryId": 1,
+      "brand": "Microsoft",
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Elegante laptop met touchscreen en lange batterijduur.",
+      "specifications": {
+        "processor": "AMD Ryzen 5",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "screen_size": "13.5 inch"
+      },
+      "price": 1099.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://gfx3.senetic.com/akeneo-catalog/e/9/9/4/e994e93b1dafe3dca532be15a8c238b4185e0c3e_1626672_5JI_00009_image1.jpg",
+        "https://m.media-amazon.com/images/I/81FRxC-TXRL.jpg",
+        "https://gfx3.senetic.com/akeneo-catalog/d/a/8/5/da85637b54f9d7f548018ce7bb5b10fa2fea526f_1626680_5IX_00009_image2.jpg",
+        "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Panel14_AppsPanel_OneDrive?scl=1"
+      ],
+      "stock": 9,
+      "rating": 1.8,
+      "reviews": []
+    },
+    {
+      "id": "15",
+      "categoryId": 4,
+      "brand": "Apple",
+      "title": "Apple Magic Trackpad",
+      "description": "Draadloze trackpad met multi-touch oppervlak en Force Touch.",
+      "specifications": {
+        "connectivity": "Bluetooth",
+        "battery_life": "1 maand",
+        "compatible_with": "macOS/iOS"
+      },
+      "price": 129.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXK93?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1730508284008",
+        "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202411/15/00128635610182____3__1200x1200.jpg",
+        "https://www.ispot.com.ua/image/cache/catalog/import_files/ee/ee3649c90eeb11eb81142c4d5459a249_61944ac0780e11eb81252c4d5459a249-700x700.jpg",
+        "https://www.studioproper.com.au/cdn/shop/products/Proper-business-web-images-2020---2_0004_MJ2R2_AV3_1600x.png?v=1618285283"
+      ],
+      "stock": 98,
+      "rating": 5,
+      "reviews": []
+    },
+    {
+      "id": "16",
+      "categoryId": 3,
+      "brand": "AOC",
+      "title": "AOC CQ32G1",
+      "description": "Gebogen 32-inch QHD gaming monitor met 144Hz verversingssnelheid.",
+      "specifications": {
+        "resolution": "2560x1440",
+        "refresh_rate": "144Hz",
+        "panel_type": "VA",
+        "screen_size": "31.5 inch",
+        "curved": "Ja"
+      },
+      "price": 349.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://storage.aoc.com/assets/10418/AOC_C32G1_PV_-FRONT-large.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsYIcjgoY7YkI01axt4tzsWQwhtO2AycUM-w&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNNRED2DKHMV09bVNsDLu7bWjX7GDKN4XYA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj-kLZEh61iqKsgxb2g-TQ90MleDQBo2wkOg&s"
+      ],
+      "stock": 41,
+      "rating": 3.3,
+      "reviews": []
+    },
+    {
+      "id": "17",
+      "categoryId": 4,
+      "brand": "Anker",
+      "title": "Anker PowerCore 26800",
+      "description": "Hoge capaciteit powerbank met meerdere poorten voor snelladen.",
+      "specifications": {
+        "capacity": "26800 mAh",
+        "ports": "3x USB-A, 1x USB-C",
+        "fast_charging": "Ja"
+      },
+      "price": 59.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://media.s-bol.com/kgREq0NopPpr/jMo17y/1109x1200.jpg",
+        "https://m.media-amazon.com/images/S/aplus-media-library-service-media/defc1863-66b9-4328-a394-afe40d1446ec.__CR0,0,300,400_PT0_SX300_V1___.jpg",
+        "https://media.extra.com/i/aurora/100004377_100_01?fmt=auto&w=720",
+        "https://www.oandogadgets.com/wp-content/uploads/2023/01/A1277H11.webp"
+      ],
+      "stock": 54,
+      "rating": 2.9,
+      "reviews": []
+    },
+    {
+      "id": "18",
+      "categoryId": 2,
+      "brand": "Apple",
+      "title": "Apple Mac Mini M1",
+      "description": "Compacte desktop met de krachtige Apple M1-chip.",
+      "specifications": {
+        "processor": "Apple M1",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "ports": "2x Thunderbolt, 2x USB-A"
+      },
+      "price": 699.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsxCb_C3DifukLCE8_SQN-M5aFgZ20s8Ljiw&s",
+        "https://5.imimg.com/data5/SELLER/Default/2023/9/345707746/LH/OR/AY/134665685/apple-mac-mini-3-6ghz-4-core-quad-core-mxng2hn-a-500x500.jpg",
+        "https://i.ebayimg.com/images/g/tfUAAOSwn8Rh~VOk/s-l1200.jpgg",
+        "https://d13s5rafcqkqiu.cloudfront.net/CACHE/images/products/other/tba/650133_apple-mac-mini-with-m2-pro10-core-cpu16-core-gpu512gb-ssd-2023_ZzBEA7_1-auto/9feea143a5d2d7a65e4c8083e071cd14.jpg"
+      ],
+      "stock": 27,
+      "rating": 4.6,
+      "reviews": []
+    },
+    {
+      "id": "19",
+      "categoryId": 1,
+      "brand": "Dell",
+      "title": "Dell XPS 13",
+      "description": "Premium ultrabook met randloos InfinityEdge-display.",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen_size": "13.4 inch"
+      },
+      "price": 1349.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9310/general/xps-13_black_open-up-left-v2.jpg?fmt=pjpg&pscan=auto&scl=1&wid=3334&hei=2017&qlt=100,1&resMode=sharp2&size=3334,2017&chrss=full&imwidth=5000",
+        "https://m.media-amazon.com/images/I/713BCLX5EGS._AC_SL1500_.jpg",
+        "https://i0.wp.com/www.inovamusicnet.com/wp-content/uploads/2022/02/41gHvXR3foL._AC_US250_.jpg?fit=250%2C250&ssl=1",
+        "https://www.mikkyworld.com/wp-content/uploads/2021/05/Dell-Xps-13-9310-i7-1185G7-16GB-1TB-SSD-7.jpg"
+      ],
+      "stock": 29,
+      "rating": 3.6,
+      "reviews": []
+    },
+    {
+      "id": "20",
+      "categoryId": 4,
+      "brand": "Logitech",
+      "title": "Logitech C920 HD Pro",
+      "description": "Full HD webcam met dual-microfoons voor heldere video's.",
+      "specifications": {
+        "resolution": "1080p",
+        "fps": "30",
+        "mic": "Dual stereo",
+        "connectivity": "USB"
+      },
+      "price": 89.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920/gallery/c920-gallery-2.png",
+        "https://www.alternate.be/p/1200x630/6/9/Logitech_HD_Pro_Webcam_C920@@1224696_6.jpg",
+        "https://m.media-amazon.com/images/I/71mAHsZesxL.jpg",
+        "https://gfx3.senetic.com/akeneo-catalog/5/a/5/3/5a53a80456967148302e9ce40eef7cb41ece1a3e_1021148_960_001055_image4.jpg"
+      ],
+      "stock": 21,
+      "rating": 4.1,
+      "reviews": []
+    },
+    {
+      "id": "21",
+      "categoryId": 3,
+      "brand": "BenQ",
+      "title": "BenQ GW2780",
+      "description": "27-inch Full HD monitor met IPS-paneel en oogverzorgende technologie.",
+      "specifications": {
+        "resolution": "1920x1080",
+        "refresh_rate": "60Hz",
+        "panel_type": "IPS",
+        "screen_size": "27 inch"
+      },
+      "price": 199.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://media.s-bol.com/LY2LnDwVgByp/6820GZl/550x426.jpg",
+        "https://image.benq.com/is/image/benqco/gw2780-left45-1",
+        "https://image.benq.com/is/image/benqco/gl2780-02-2?$ResponsivePreset$",
+        "https://image.benq.com/is/image/benqco/gw2780-02?$ResponsivePreset$"
+      ],
+      "stock": 15,
+      "rating": 5,
+      "reviews": []
+    },
+    {
+      "id": "22",
+      "categoryId": 2,
+      "title": "MSI MPG Trident 3",
+      "description": "Compacte gaming desktop met krachtige specificaties.",
+      "brand": "MSI",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA RTX 3060 Ti"
+      },
+      "price": 1599.99,
+      "shipping_time": "3-5 werkdagen",
+      "images": [
+        "https://files.refurbed.com/pi/msi-mpg-trident-3-11-th-1669894909.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxaM_ZzeGqTbZ71k4sY7luQ_9VG06aSzaduw&s",
+        "https://asset.msi.com/resize/image/global/product/product_4_20200430090518_5eaa244e097aa.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "https://asset.msi.com/resize/image/global/product/product_1616117952b5c862465e6ff132fd8f24455d414af8.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+      ],
+      "stock": 35,
+      "rating": 4.6,
+      "reviews": []
+    },
+    {
+      "id": "23",
+      "categoryId": 1,
+      "title": "Acer Swift 3",
+      "description": "Lichtgewicht laptop met lange batterijduur en snelle prestaties.",
+      "brand": "Acer",
+      "specifications": {
+        "processor": "AMD Ryzen 7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen_size": "14 inch"
+      },
+      "price": 849.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://m.media-amazon.com/images/I/71CcP14oJFL.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVr3t89lKpIgZx28SwU6g2tlxH5W2E90ckyUSsO17gUOJkfBk6GMdZKnPbSMmYDJY9dw&usqp=CAU",
+        "https://tweakers.net/i/l7R60cmjoApJFt4V4hU73bAN4Dk=/i/2003273946.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXm8oUDmRGyjS7EW_F3Haqi91pn01PqcVKDyp6HMzUgSpYoCUkV6mXauLrEH-QbBuw7fs&usqp=CAU"
+      ],
+      "stock": 89,
+      "rating": 3.4,
+      "reviews": []
+    },
+    {
+      "id": "24",
+      "categoryId": 4,
+      "title": "SteelSeries Arctis 7",
+      "description": "Draadloze gaming headset met surround sound en lange batterijduur.",
+      "brand": "SteelSeries",
+      "specifications": {
+        "connectivity": "2.4GHz Wireless",
+        "battery_life": "24 uur",
+        "mic": "ClearCast microfoon",
+        "surround": "DTS Headphone:X v2.0"
+      },
+      "price": 149.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://media.s-bol.com/J660AVrBV4lK/550x823.jpg",
+        "https://media.krefel.be/sys-master/products/9223192313886/1440x1440.62008358_02.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AsSR8zSS0bOG4qglUvokz09pIs-cdsQpwdFUMg_UOD_UAVPWUfdHn-6NG75Q4S2nSKo&usqp=CAU",
+        "https://media.s-bol.com/YM530q3MyvWK/967x1200.jpg"
+      ],
+      "stock": 9,
+      "rating": 2.7,
+      "reviews": []
+    },
+    {
+      "id": "25",
+      "categoryId": 3,
+      "title": "Philips 346B1C",
+      "description": "34-inch ultrawide curved monitor met USB-C docking.",
+      "brand": "Philips",
+      "specifications": {
+        "resolution": "3440x1440",
+        "refresh_rate": "100Hz",
+        "panel_type": "VA",
+        "screen_size": "34 inch",
+        "curved": "Ja"
+      },
+      "price": 599.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://gfx3.senetic.com/akeneo-catalog/5/c/f/4/5cf4cc7a1c7a222513b516eea92dc38639dcc19d_1660745_346B1C_00_image3.jpg",
+        "https://media.s-bol.com/xVr5KZML0KDJ/mZM0LDp/550x350.jpg",
+        "https://static.fnac-static.com/multimedia/Images/24/24/30/D0/13643812-3-1520-5/tsp20241202102725/Ecran-PC-LED-Philips-B-Line-346B1C-QHD-Incurve-100-Hz-5-ms-34-Noir.jpg",
+        "https://image.coolblue.be/600x315/products/1447466"
+      ],
+      "stock": 62,
+      "rating": 4.1,
+      "reviews": []
+    },
+    {
+      "id": "26",
+      "categoryId": 1,
+      "title": "Razer Blade 15",
+      "description": "Premium gaming laptop met high-end grafische prestaties.",
+      "brand": "Razer",
+      "specifications": {
+        "processor": "Intel Core i9",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "screen_size": "15.6 inch",
+        "gpu": "NVIDIA RTX 3080"
+      },
+      "price": 2399.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://m.media-amazon.com/images/I/61hofxR1GQL.jpg",
+        "https://m.media-amazon.com/images/I/71kcJxMggRL.jpg",
+        "https://press.razer.com/wp-content/uploads/2018/10/00.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGBDAGUJ_ft3H6wbqDOrTTkTV3ECXRBf32WL91iy9So0AJU0otTrUvuGyq8hCvUe2_pg8&usqp=CAU"
+      ],
+      "stock": 95,
+      "rating": 2.3,
+      "reviews": []
+    },
+    {
+      "id": "27",
+      "categoryId": 4,
+      "title": "Samsung T7 Portable SSD",
+      "description": "Snelle en draagbare externe SSD met USB 3.2.",
+      "brand": "Samsung",
+      "specifications": {
+        "capacity": "1TB",
+        "interface": "USB 3.2 Gen 2",
+        "read_speed": "1050 MB/s",
+        "write_speed": "1000 MB/s"
+      },
+      "price": 159.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPtaKGYe4cNnnFWwrXCGcyRwhR5uqgf5sVw&s",
+        "https://www.tradeinn.com/f/13787/137876240_6/samsung-ssd-externo-t7-mu-pc1t0t-1tb.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuedqCJy97OLjUR9RvgH0Eb84T1fKQ3GOJXgbPPxXu4FfLOhH8tAY29DM50lsfua4zO88&usqp=CAU",
+        "https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/consumer-storage/portable-ssd/new-t7/memory-t7-feature3-pc.png?$ORIGIN_PNG$"
+      ],
+      "stock": 0,
+      "rating": 3.9,
+      "reviews": []
+    },
+    {
+      "id": "28",
+      "categoryId": 2,
+      "title": "Lenovo Legion Tower 5i",
+      "description": "Krachtige gaming desktop met uitstekende koeling.",
+      "brand": "Lenovo",
+      "specifications": {
+        "processor": "Intel Core i7",
+        "ram": "16GB",
+        "storage": "512GB SSD + 1TB HDD",
+        "gpu": "NVIDIA RTX 3070"
+      },
+      "price": 1799.99,
+      "shipping_time": "3-5 werkdagen",
+      "images": [
+        "https://p4-ofp.static.pub//fes/cms/2024/08/28/6q7yd07ske8r9fg0ajkbpnfqtifflr228797.png",
+        "https://p1-ofp.static.pub//fes/cms/2024/09/05/k63eqs9nz9ft3owho6rz0du9cbhlpk517351.png",
+        "https://p1-ofp.static.pub//fes/cms/2024/09/11/mswjuaq9pn6wnm9oa4hdfxykq1bspq650567.png",
+        "https://www.digitec.ch/productimages/7/1/2/4/6/0/1/5/2/4/4/7/1/7/5/0/0/6/0/09505278-0f38-42c1-8fce-07b23529d5c4_cropped.jpg"
+      ],
+      "stock": 63,
+      "rating": "5.3",
+      "reviews": []
+    },
+    {
+      "id": "29",
+      "categoryId": 1,
+      "title": "Google Pixelbook Go",
+      "description": "Lichtgewicht Chromebook met lange batterijduur en touchscreen.",
+      "brand": "Google",
+      "specifications": {
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "128GB SSD",
+        "screen_size": "13.3 inch"
+      },
+      "price": 849.99,
+      "shipping_time": "2-3 werkdagen",
+      "images": [
+        "https://files.refurbed.io/ii/google-pixelbook-go-i5-8200y-1708329950829169536.jpg?t=fitdesign&h=600&w=800",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_pNxYIRPdobj5bZodNvPVPVOUKgKsB9glcyvRim4TfcAV6phHJG1B4Y5z_hSogBdhwEU&usqp=CAU",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Family_Shot_Pixelbook_Go.width-1200.format-webp.webp",
+        "https://m.media-amazon.com/images/I/51sCQwVrzlL.jpg"
+      ],
+      "stock": 1,
+      "rating": 1.1,
+      "reviews": []
+    },
+    {
+      "id": "30",
+      "categoryId": 4,
+      "title": "Elgato Stream Deck",
+      "description": "Programmeerbaar LCD-toetsenbord voor content creators en streamers.",
+      "brand": "Elgato",
+      "specifications": {
+        "keys": "15 LCD-toetsen",
+        "connectivity": "USB",
+        "compatibility": "Windows/macOS"
+      },
+      "price": 149.99,
+      "shipping_time": "1-2 werkdagen",
+      "images": [
+        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_53/532345/16957750_800.jpg",
+        "https://res.cloudinary.com/elgato-pwa/image/upload/q_auto,f_auto/v1679475550/Products/10GBA9901/above-the-fold/desktop/mk.2-black-01_seyirh.jpg",
+        "https://tweakers.net/ext/i/2004482270.png",
+        "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_53/532345/16957635_800.jpg"
+      ],
+      "stock": 73,
+      "rating": 4.3,
+      "reviews": []
+    }
+  ]
+}
